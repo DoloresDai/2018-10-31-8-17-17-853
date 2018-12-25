@@ -7,6 +7,4 @@ class Person = {
     return (`My name is ${this.name}.I am ${this.age} years old.`);
   }
 }
-export {
-  Person
-};
+module.exports = Person;

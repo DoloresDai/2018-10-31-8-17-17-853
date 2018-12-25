@@ -1,6 +1,4 @@
-import {
-  Person
-} from '/person.js';
+import Person from '/person.js';
 class Teacher extends Person {
   constructor(id, name, age, introduce, klass) {
     super(id, name, age);

@@ -3,6 +3,4 @@ class Class = {
     this.number = number;
   }
 }
-export {
-  Class
-};
+module.exports = Class;
