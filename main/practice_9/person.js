@@ -1,4 +1,4 @@
-lass Person = {
+class Person = {
   constructor(id, name, age, introduce) {
     this.id = id;
     this.name = name;

@@ -1,9 +1,5 @@
-import {
-  Person
-} from '/person.js';
-import {
-  class
-} from '/class.js';
+import Person from '/person.js';
+import class from '/class.js';
 class Student extends Person {
   constructor(id, name, age, introduce, klass) {
     super(id, name, age);
