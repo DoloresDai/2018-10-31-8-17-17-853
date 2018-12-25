@@ -6,10 +6,10 @@
      return Class + `${this.name}`;
    }
    assignLeader(student) {
-     student.klass.number === this.number ? this.leader = this.name : `It is not one of us.`;
+     Tom.number === this.number ? this.leader = Tom;
    }
    appendMember(student) {
-     assignLeader(student);
+     student.klass.number === this.number ? this.student.name = this.name : `It is not one of us.`;
    }
  }
  module.exports = Class;
