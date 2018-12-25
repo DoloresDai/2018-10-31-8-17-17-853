@@ -6,18 +6,11 @@ import {
 } from '/class.js';
 class Student extends Person {
   constructor(id, name, age, introduce, klass) {
-    super(name, age);
+    super(id, name, age);
     this.klass = new Class();
   }
   introduce() {
-      assignLeader(leader) === Tom ? Person.introduce() + `I am a Student.`
-      I am Leader of Class 2. `:Person.introduce() + `
-      I am a Student.I am at Class $ {
-        this.klass
-      }.
-      `;
+    assignLeader(leader) === Tom ? Person.introduce() + `I am a Student.I am Leader of Class 2.` : Person.introduce() + `I am a Student.I am at Class ${this.klass}.`
   }
 }
-export {
-  Student
-};
+module.exports = Student;

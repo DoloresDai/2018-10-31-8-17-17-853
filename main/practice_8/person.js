@@ -1,4 +1,4 @@
-class Person = {
+lass Person = {
   constructor(id, name, age, introduce) {
     this.id = id;
     this.name = name;
@@ -8,6 +8,4 @@ class Person = {
     }
   }
 }
-export {
-  Person
-};
+module.exports = Person;
